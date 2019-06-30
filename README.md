@@ -15,7 +15,7 @@ Laravel framework comes with an out of box working authentication functionality 
     
 ### Step 1 : Laravel Installation
 Make sure you have a working Laravel application on your machine. Also you have configured your .env file as per the database you are using. Once you have installed laravel. It should have the following folder structure.
- Laravel application already have some classes that are specific to the Authentication functionality. Controller that are specific to the authentication module are under app > Controllers > Auth
+Laravel application already have some classes that are specific to the Authentication functionality. Controller that are specific to the authentication module are under app > Controllers > Auth
  
  ### App Service Provider:
  To aviod errores, in the file provider make changes to the AppServiceProvider.php:
@@ -23,13 +23,22 @@ Make sure you have a working Laravel application on your machine. Also you have 
  >> Schema::defaultStringLength();
 >>> However, the changes have been corrected.
 
+### Database
+configuring the .env file change the name of the databae to tech_notes or create a new database and continue to follow the steps.
+- DB_CONNECTION=mysql
+- DB_HOST=127.0.0.1
+- DB_PORT=3306
+- DB_DATABASE="tech_notes"
+- DB_USERNAME="root"  
+- DB_PASSWORD=""    
+
 ### node Modules:
 Node modules was add to the file structure:
 > npm install
 
 ### Step 2 : Run make:auth command:
 On your project root directory run following command.
->php artisan make:auth
+> php artisan make:auth
 
 ### Step 3 : Run migrate command:
 Next, we need to run the migrate command to create the tables required for authentication. Run the following command on project Root in your terminal.

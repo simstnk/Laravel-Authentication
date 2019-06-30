@@ -1,4 +1,4 @@
-
+<p align="center"><img src="https://i.stack.imgur.com/3yJyt.png"></p>
 
 ### Laravel Authentication Login, Logout, Register, Forgot Password & Remember Me Functionality
 Laravel framework comes with an out of box working authentication functionality for your application that includes Login, Logout, Register, Forgot Password and Remember me functions.

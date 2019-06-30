@@ -1,4 +1,9 @@
 <p align="center"><img src="https://i.stack.imgur.com/3yJyt.png"></p>
+<p align="center">
+ <img alt="GitHub" src="https://img.shields.io/github/license/DesignofCp/Laravel-Authentication.svg">
+ <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/DesignofCp/Laravel-Authentication.svg">
+ <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DesignofCp/Laravel-Authentication.svg">
+</p>
 
 ### Laravel Authentication Login, Logout, Register, Forgot Password & Remember Me Functionality
 Laravel framework comes with an out of box working authentication functionality for your application that includes Login, Logout, Register, Forgot Password and Remember me functions.

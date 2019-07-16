@@ -22,7 +22,7 @@ Laravel application already have some classes that are specific to the Authentic
  ### App Service Provider:
  To aviod errores, in the file provider make changes to the AppServiceProvider.php:
  > use Illuminate\Support\Facades\Schema;
- >> Schema::defaultStringLength();
+ >> Schema::defaultStringLength(191);
 >>> However, the changes have been corrected.
 
 #### Database:
